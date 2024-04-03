@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #6f6f6f; /* Changed the background color */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; /* Changed the width */
+    height: 100%;
+    background-color: grey; /* Changed the background color */
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px; /* Added padding to the top */
+}
+
+.navlist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navlist li {
+    margin: 0 0 20px 0;
+}
+
+.navlist li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px; /* Decreased the font size */
+    transition: all 0.3s ease;
+}
+
+.navlist li a:hover {
+    color: #ff6666; /* Changed the hover color */
+}
+
+.container img {
+    filter: blur(4px); /* Increased the blur effect */
+    width: 100%;
+}
+
+.app {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.app h1 {
+    font-size: 25px;
+    color: #000; /* Changed the color */
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    color: #000; /* Changed the color */
+    font-weight: 600;
+}
+
+.btn {
+    background: #fff;
+    color: #333; /* Changed the color */
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: #333;
+    color: #fff;
+}
+
+#next-btn {
+    background: #ff6666; /* Changed the background color */
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: greenyellow;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+.footer {
+    background-color: #222; /* Changed the background color */
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer h2 {
+    margin-bottom: 20px;
+    color: #ff6666; /* Changed the color */
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-links li a:hover {
+    color: #ff6666; /* Changed the hover color */
+}
